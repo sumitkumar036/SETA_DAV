@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/SETA/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>EMOTION TRACKER TEMPLATE</title>
+
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+        /* Rich, multi-tone pastel dreamscape canvas */
+        background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 35%, #e0e7ff 70%, #fdf2f8 100%);
+        background-attachment: fixed;
+        overflow-x: hidden;
+        transition: background 0.5s ease;
+      }
+
+      /* Dark Mode: Deep cozy magical cosmos sky */
+      html.dark, html.dark body {
+        background: linear-gradient(135deg, #020617 0%, #0b0f19 40%, #1e1b4b 85%, #2e1065 100%);
+        background-attachment: fixed;
+      }
+
+      /* --- AMBIENT FLOATING CANVAS ENGINE --- */
+      .bg-ambient-glow {
+        position: fixed;
+        inset: 0;
+        z-index: -20;
+        overflow: hidden;
+        pointer-events: none;
+      }
+
+      /* Advanced: Liquid shapeshifters with smooth blending filters */
+      .glow-blob {
+        position: absolute;
+        filter: blur(70px);
+        opacity: 0.5;
+        mix-blend-mode: multiply;
+        will-change: transform, border-radius;
+        transition: background 0.5s ease;
+      }
+
+      /* High-vibrancy screen blending optimized specifically for dark themes */
+      html.dark .glow-blob {
+        opacity: 0.15;
+        mix-blend-mode: screen;
+        filter: blur(100px);
+      }
+
+      /* Blob 1: Sunbeam Yellow */
+      .blob-1 {
+        top: -10%;
+        left: -5%;
+        width: 500px;
+        height: 500px;
+        background: #fef08a;
+        animation: morphLiquid 14s infinite alternate ease-in-out;
+      }
+
+      /* Blob 2: Bubblegum Pink */
+      .blob-2 {
+        bottom: -15%;
+        right: -5%;
+        width: 580px;
+        height: 580px;
+        background: #fbcfe8;
+        animation: morphLiquid 18s infinite alternate-reverse ease-in-out;
+      }
+
+      /* Blob 3: Cotton Candy Blue */
+      .blob-3 {
+        top: 25%;
+        right: -10%;
+        width: 420px;
+        height: 420px;
+        background: #bae6fd;
+        animation: morphLiquid 16s infinite alternate ease-in-out;
+      }
+
+      /* Blob 4: Magic Lavender */
+      .blob-4 {
+        bottom: 20%;
+        left: -10%;
+        width: 450px;
+        height: 450px;
+        background: #ddd6fe;
+        animation: morphLiquid 22s infinite alternate-reverse ease-in-out;
+      }
+
+      /* Dynamic, vivid color transformations when switching over to Dark Mode */
+      html.dark .blob-1 { background: #eab308; }
+      html.dark .blob-2 { background: #ec4899; }
+      html.dark .blob-3 { background: #06b6d4; }
+      html.dark .blob-4 { background: #8b5cf6; }
+
+      /* The Liquid Shapeshifting Algorithm Loop */
+      @keyframes morphLiquid {
+        0% {
+          transform: scale(1) translate(0px, 0px) rotate(0deg);
+          border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        }
+        33% {
+          transform: scale(1.12) translate(40px, -60px) rotate(45deg);
+          border-radius: 70% 30% 52% 48% / 60% 40% 60% 40%;
+        }
+        66% {
+          transform: scale(0.9) translate(-30px, 50px) rotate(-30deg);
+          border-radius: 50% 60% 30% 70% / 40% 60% 40% 60%;
+        }
+        100% {
+          transform: scale(1.05) translate(15px, -20px) rotate(20deg);
+          border-radius: 48% 52% 58% 42% / 42% 52% 48% 58%;
+        }
+      }
+    </style>
+    <script type="module" crossorigin src="/SETA/assets/index-DVpgrHFn.js"></script>
+    <link rel="stylesheet" crossorigin href="/SETA/assets/index-CEtDpbEy.css">
+  </head>
+
+  <body>
+    <div class="bg-ambient-glow">
+      <div class="glow-blob blob-1"></div>
+      <div class="glow-blob blob-2"></div>
+      <div class="glow-blob blob-3"></div>
+      <div class="glow-blob blob-4"></div>
+    </div>
+
+    <div id="root"></div>
+  </body>
+</html>
