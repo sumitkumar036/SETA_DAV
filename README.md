@@ -3,6 +3,17 @@
 > A beautiful, safe, and simple feelings portal designed for **D.A.V Public School** students to share their daily moods, coupled with a real-time analytics workspace for teachers and administration.
 
 [Live Demo Deployed on GitHub Pages](https://sumitkumar.online/SETA_DAV/) 
+
+## <u> HOME PAGE </u>
+<img width="1901" height="948" alt="image" src="https://github.com/user-attachments/assets/9dc2b3e0-8244-4adb-9bc0-6348ea5bfb56" />
+
+## <u> LOGIN PAGE </u>
+<img width="1889" height="940" alt="image" src="https://github.com/user-attachments/assets/2682aedd-99e7-42aa-8096-0fe5cf3a9108" />
+
+## <u> SETTING PAGE </u>
+<img width="1913" height="951" alt="image" src="https://github.com/user-attachments/assets/d8b10e42-091c-4f61-ab2a-4293bff81b04" />
+
+## <u> TEACHER DASHBOARD </u>
 <img width="1904" height="949" alt="image" src="https://github.com/user-attachments/assets/c7a32ac2-7347-4203-9c87-b3054c8f083d" />
 
 
