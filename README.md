@@ -2,7 +2,7 @@
 
 > A beautiful, safe, and simple feelings portal designed for **D.A.V Public School** students to share their daily moods, coupled with a real-time analytics workspace for teachers and administration.
 
-[Live Demo Deployed on GitHub Pages](https://github.com/your-username/SETA_DAV) 
+[Live Demo Deployed on GitHub Pages](https://sumitkumar.online/SETA_DAV/) 
 
 ---
 
